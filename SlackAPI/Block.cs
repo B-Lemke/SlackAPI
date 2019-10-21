@@ -1,4 +1,6 @@
-﻿namespace SlackAPI
+﻿using System;
+
+namespace SlackAPI
 {
     //see https://api.slack.com/reference/messaging/blocks
     public class Block : IBlock

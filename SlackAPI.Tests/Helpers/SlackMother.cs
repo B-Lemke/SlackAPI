@@ -198,6 +198,7 @@
                 }
             }
         };
+
         public static Attachment[] SomeAttachments => new[]
         {
             new Attachment()
@@ -249,5 +250,20 @@
                 }
             }
         };
+
+
+        //Json Block test blocks
+        public static IBlock[] Block => new IBlock[]
+        {
+            new SectionBlock
+            {
+                text = new Text{
+                    type = TextTypes.PlainText,
+                    text = "Test section block.",
+                    emoji = true
+                }
+            }
+        };
+
     }
 }

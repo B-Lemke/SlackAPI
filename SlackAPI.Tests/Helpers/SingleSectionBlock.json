@@ -1,0 +1,12 @@
+﻿{
+	"blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Test section block.",
+        "emoji": true
+      }
+    }
+	]
+}
